@@ -120,7 +120,7 @@ h3 {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 26px;
   color: var(--ink-soft);
   font-size: 14px;
   font-weight: 600;
@@ -386,6 +386,59 @@ h3 {
   line-height: 1.25;
 }
 
+.section.news-section {
+  padding: 68px 0;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.news-layout {
+  display: grid;
+  grid-template-columns: 0.55fr 1.45fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.news-layout h2 {
+  margin-top: 11px;
+  font-size: 48px;
+}
+
+.news-list {
+  border-top: 1px solid #cfd4da;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 28px;
+  padding: 18px 0 20px;
+  border-bottom: 1px solid #cfd4da;
+}
+
+.news-item time {
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 760;
+}
+
+.news-item p {
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+.news-item a {
+  color: var(--ink);
+  font-weight: 720;
+  text-decoration: underline;
+  text-decoration-color: #aeb7c2;
+  text-underline-offset: 3px;
+}
+
+.news-item a:hover {
+  color: var(--blue);
+}
+
 .blue-text {
   color: var(--blue);
 }
@@ -458,9 +511,24 @@ h3 {
   padding: 38px 42px 42px;
 }
 
+.paper-venue {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 780;
+  text-transform: uppercase;
+}
+
+.paper-title {
+  max-width: 900px;
+  margin-top: 10px;
+  font-size: 28px;
+  line-height: 1.25;
+}
+
 .paper-meta {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
   color: var(--ink-soft);
   font-size: 12px;
   font-weight: 700;
@@ -779,7 +847,7 @@ h3 {
     font-size: 12px;
   }
 
-  .site-nav a:nth-child(3) {
+  .site-nav .nav-mobile-hide {
     display: none;
   }
 
@@ -864,6 +932,7 @@ h3 {
   }
 
   .statement-inner,
+  .news-layout,
   .section-heading,
   .journey-layout,
   .contact-layout {
@@ -873,6 +942,24 @@ h3 {
 
   .statement h2 {
     font-size: 29px;
+  }
+
+  .news-section {
+    padding: 52px 0;
+  }
+
+  .news-layout {
+    gap: 28px;
+  }
+
+  .news-layout h2 {
+    font-size: 39px;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 16px 0 18px;
   }
 
   .section {
@@ -899,6 +986,10 @@ h3 {
 
   .paper-summary {
     font-size: 17px;
+  }
+
+  .paper-title {
+    font-size: 23px;
   }
 
   .result-grid {
@@ -969,10 +1060,6 @@ h3 {
 @media (max-width: 430px) {
   .site-nav {
     gap: 13px;
-  }
-
-  .site-nav a:nth-child(2) {
-    display: none;
   }
 
   .hero h1 {

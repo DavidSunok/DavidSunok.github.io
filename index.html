@@ -70,9 +70,10 @@
           <span>Junhan Sun</span>
         </a>
         <nav class="site-nav" aria-label="Primary navigation">
-          <a href="#work">Work</a>
-          <a href="#research">Research</a>
-          <a href="#journey">Journey</a>
+          <a class="nav-mobile-hide" href="#top">About</a>
+          <a class="nav-mobile-hide" href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a class="nav-mobile-hide" href="#research">Research</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
@@ -85,9 +86,10 @@
             <p class="eyebrow"><span class="eyebrow-line blue"></span>Ph.D. Student at Zhejiang University</p>
             <h1>Junhan Sun <span class="chinese-name" lang="zh-CN">孙俊涵</span></h1>
             <p class="hero-lede">
-              I study how world models move from understanding action effects to producing effective
-              control. My work connects predictive representations, latent dynamics, and embodied
-              intelligence through end-to-end JEPA learning.
+              I am a first-year Ph.D. student in Computer Science at Zhejiang University, after
+              completing my undergraduate study at Chu Kochen Honors College. I work with Prof.
+              Guofeng Zhang and Prof. Hao Zhao on world models that connect predictive
+              representations, latent dynamics, and efficient embodied control.
             </p>
             <div class="research-index" aria-label="Research interests">
               <span>World Models</span>
@@ -140,14 +142,46 @@
         </div>
       </section>
 
-      <section class="section featured-work" id="work" aria-labelledby="work-title">
+      <section class="section news-section" id="news" aria-labelledby="news-title">
+        <div class="shell news-layout">
+          <div>
+            <p class="section-kicker">Updates</p>
+            <h2 id="news-title">News</h2>
+          </div>
+          <div class="news-list">
+            <article class="news-item">
+              <time datetime="2026-08">Aug. 2026</time>
+              <p>
+                Released the training code, evaluation stack, and model artifacts for
+                <a href="https://github.com/zju3dv/INTACT-JEPA">INTACT</a>.
+              </p>
+            </article>
+            <article class="news-item">
+              <time datetime="2026-07">Jul. 2026</time>
+              <p>
+                Released the <a href="https://arxiv.org/abs/2607.26056">INTACT preprint</a> and its
+                interactive <a href="https://zju3dv.github.io/INTACT-JEPA/">project page</a>.
+              </p>
+            </article>
+            <article class="news-item">
+              <time datetime="2026-07">Jul. 2026</time>
+              <p>
+                Open-sourced <a href="https://github.com/DavidSunok/CLEAR-LeWM">CLEAR-LeWM</a>, an
+                auditable evaluation suite for LeWM-compatible world models.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section featured-work" id="publications" aria-labelledby="publications-title">
         <div class="shell">
           <div class="section-heading">
             <div>
-              <p class="section-kicker">Featured research · 2026</p>
-              <h2 id="work-title">INTACT</h2>
+              <p class="section-kicker">Research output</p>
+              <h2 id="publications-title">Publications</h2>
             </div>
-            <p>Isomorphic Intent-to-Action Learning for Search-Free World Models</p>
+            <p>Selected work on predictive world representations and efficient embodied control.</p>
           </div>
 
           <article class="intact-feature">
@@ -166,6 +200,8 @@
             </a>
 
             <div class="intact-details">
+              <p class="paper-venue">arXiv · 2026 · Robotics</p>
+              <h3 class="paper-title">INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models</h3>
               <div class="paper-meta">
                 <span>World models</span>
                 <span>Representation learning</span>
@@ -206,9 +242,9 @@
           </article>
 
           <article class="open-work">
-            <div class="open-work-index">02</div>
+            <div class="open-work-index">R1</div>
             <div>
-              <p class="section-kicker">Open evaluation infrastructure</p>
+              <p class="section-kicker">Selected research software</p>
               <h3>CLEAR-LeWM</h3>
             </div>
             <p>
