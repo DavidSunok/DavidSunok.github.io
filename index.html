@@ -8,15 +8,15 @@
   <meta name="theme-color" content="#f8f9fc" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Junhan Sun · World Models &amp; Embodied AI" />
-  <meta property="og:description" content="Predictive representations. Latent dynamics. Purposeful actions." />
-  <meta property="og:image" content="https://davidsunok.github.io/assets/junhan-sun.webp" />
+  <meta property="og:description" content="World models, predictive representations, and embodied control. Zhejiang University." />
+  <meta property="og:image" content="https://davidsunok.github.io/assets/junhan-portrait.webp" />
   <meta property="og:url" content="https://davidsunok.github.io/" />
   <meta name="twitter:card" content="summary" />
   <link rel="canonical" href="https://davidsunok.github.io/" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preload" href="assets/junhan-sun.webp" as="image" type="image/webp" />
-  <link rel="stylesheet" href="assets/site-v2.css" />
-  <script src="assets/site-v2.js" defer></script>
+  <link rel="preload" href="assets/junhan-portrait.webp" as="image" type="image/webp" />
+  <link rel="stylesheet" href="assets/site-v3.css" />
+  <script src="assets/site-v3.js" defer></script>
   <title>Junhan Sun (孙俊涵) · World Models &amp; Embodied AI</title>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"Junhan Sun","alternateName":["孙俊涵","Sun Junhan"],"url":"https://davidsunok.github.io/","email":"mailto:12621185@zju.edu.cn","jobTitle":"Ph.D. Student","affiliation":{"@type":"CollegeOrUniversity","name":"Zhejiang University"},"sameAs":["https://github.com/DavidSunok","https://x.com/DavidSunok47","https://scholar.google.com/citations?user=CoqxbcUAAAAJ&hl=en"],"knowsAbout":["World Models","Representation Learning","Embodied AI","Robot Learning"]}
@@ -24,123 +24,60 @@
 </head>
 <body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="shell header-inner">
-      <a class="wordmark" href="#top" aria-label="Junhan Sun, back to top"><span class="identity-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Junhan Sun</span></a>
-      <nav aria-label="Primary navigation"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#contact">Contact</a></nav>
-    </div>
-  </header>
-  <main id="main">
-    <section class="hero shell" id="about" aria-labelledby="name">
+  <header class="site-header"><div class="shell header-inner">
+    <a class="wordmark" href="#top" aria-label="Junhan Sun, back to top"><span class="identity-mark" aria-hidden="true"><i></i><i></i><i></i></span>Junhan Sun</a>
+    <nav aria-label="Primary navigation"><a href="#about">About</a><a href="#publications">Publications</a><a href="#software">Software</a><a href="#contact">Contact</a></nav>
+  </div></header>
+  <main id="main" class="shell">
+    <section class="hero" id="about" aria-labelledby="name">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="tiny-line" aria-hidden="true"></span>Zhejiang University · Computer Science</p>
+        <p class="eyebrow">Zhejiang University · Computer Science</p>
         <h1 id="name">Junhan Sun <span lang="zh-CN">孙俊涵</span></h1>
-        <p class="hero-thought">Predictive worlds.<br /><span>Purposeful actions.</span></p>
-        <p class="bio">I am a first-year Ph.D. student at Zhejiang University, working with <strong>Prof. Guofeng Zhang</strong> at Zhejiang University and <strong>Prof. Hao Zhao</strong> at Tsinghua University. I study world models that connect predictive representations, latent dynamics, and efficient embodied control.</p>
-        <p class="bio-secondary">Previously, I completed my undergraduate study at Chu Kochen Honors College, Zhejiang University.</p>
-        <div class="quick-links" aria-label="Profile and contact links">
-          <a href="mailto:12621185@zju.edu.cn">Email <span aria-hidden="true">↗</span></a>
-          <a href="https://scholar.google.com/citations?user=CoqxbcUAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/DavidSunok">GitHub <span aria-hidden="true">↗</span></a>
-          <a href="https://x.com/DavidSunok47">X <span aria-hidden="true">↗</span></a>
-        </div>
+        <p class="bio">I am a first-year Ph.D. student at Zhejiang University, working with <strong>Prof. Guofeng Zhang</strong> at Zhejiang University and <strong>Prof. Hao Zhao</strong> at Tsinghua University.</p>
+        <p class="bio">My research connects <span class="blue">predictive representations</span>, <span class="purple">world models</span>, and <span class="red">embodied control</span>. I am interested in how learned models turn visual goals into efficient, purposeful action.</p>
+        <p class="bio-secondary">Previously: Chu Kochen Honors College, Zhejiang University.</p>
+        <div class="quick-links" aria-label="Profile and contact links"><a href="mailto:12621185@zju.edu.cn">Email</a><a href="https://scholar.google.com/citations?user=CoqxbcUAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/DavidSunok">GitHub</a><a href="https://x.com/DavidSunok47">X</a></div>
       </div>
-      <figure class="portrait">
-        <div class="portrait-frame"><img src="assets/junhan-sun.webp" width="720" height="720" alt="Junhan Sun's original illustrated profile avatar" fetchpriority="high" /></div>
-        <figcaption><span>Hangzhou, China</span><span class="portrait-coordinates" aria-hidden="true">蓝 / 红 / 紫</span></figcaption>
-        <p>State Key Laboratory of CAD&amp;CG<br />Zhejiang University</p>
-      </figure>
+      <figure class="portrait"><div class="portrait-frame"><img src="assets/junhan-portrait.webp" width="640" height="760" alt="Portrait of Junhan Sun" fetchpriority="high" /></div><figcaption>CAD&amp;CG · Hangzhou, China</figcaption></figure>
     </section>
-
-    <section class="research-section" id="research" aria-labelledby="research-title">
-      <div class="shell">
-        <div class="section-heading">
-          <div><p class="eyebrow"><span class="section-number">01</span>Research direction</p><h2 id="research-title">From representation<br />to action.</h2></div>
-          <p class="section-intro">A useful world model should learn both <span class="blue">what an action does</span> and <span class="red">which action realizes an intent</span>.</p>
-        </div>
-        <figure class="research-figure" id="research-figure">
-          <div class="diagram-toolbar"><span>WORLD MODELS / EMBODIED CONTROL</span><button type="button" id="motion-toggle" aria-pressed="false" aria-controls="research-diagram" hidden><span class="motion-symbol" aria-hidden="true">Ⅱ</span><span class="motion-label">Pause motion</span></button></div>
-          <svg id="research-diagram" viewBox="0 0 1000 230" role="img" aria-labelledby="diagram-title diagram-desc">
-            <title id="diagram-title">Predictive representations connected to intent-conditioned action</title>
-            <desc id="diagram-desc">An illustrative blue representation field connects through purple latent dynamics to a red action trajectory. This conceptual visual is not experimental data.</desc>
-            <defs>
-              <linearGradient id="flow-gradient" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2458c4"/><stop offset=".5" stop-color="#7951b0"/><stop offset="1" stop-color="#c53e51"/></linearGradient>
-              <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#dadfe9"/></pattern>
-            </defs>
-            <rect width="1000" height="230" fill="url(#grid)"/>
-            <path d="M85 145C160 30 230 200 320 118S452 83 500 113S620 156 704 105S805 162 926 73" fill="none" stroke="url(#flow-gradient)" stroke-width="1.5" opacity=".25"/>
-            <g class="representation-cloud" fill="#2458c4"><circle cx="95" cy="107" r="3"/><circle cx="125" cy="79" r="4"/><circle cx="145" cy="124" r="5"/><circle cx="175" cy="58" r="3"/><circle cx="179" cy="101" r="4"/><circle cx="211" cy="137" r="3"/><circle cx="218" cy="72" r="5"/><circle cx="246" cy="110" r="3"/><circle cx="259" cy="153" r="4"/><circle cx="276" cy="77" r="3"/><circle cx="155" cy="158" r="3"/><circle cx="100" cy="162" r="2"/><circle cx="235" cy="45" r="2"/></g>
-            <g fill="none" stroke="#2458c4" stroke-width="1" opacity=".28"><path d="M125 79L179 101L218 72L246 110L211 137L145 124L125 79M145 124L179 101L211 137M175 58L218 72L276 77M100 162L145 124L155 158L211 137L259 153"/></g>
-            <path class="flow-path" d="M280 112C353 112 353 112 413 112" fill="none" stroke="#2458c4" stroke-width="2" stroke-dasharray="5 8" opacity=".6"/>
-            <g transform="translate(500 112)" stroke="#7951b0" fill="none"><circle r="63" stroke-width="1" opacity=".2"/><ellipse rx="63" ry="25" transform="rotate(-35)" opacity=".7"/><ellipse rx="27" ry="63" transform="rotate(-35)" opacity=".5"/><ellipse rx="63" ry="25" transform="rotate(35)" opacity=".45"/><circle r="40" stroke-dasharray="2 6" opacity=".25"/><circle r="7" fill="#7951b0" fill-opacity=".1" stroke-width="1.5"/><circle class="latent-dot" cx="39" cy="-32" r="4" fill="#7951b0" stroke="none"/></g>
-            <path class="flow-path action-flow" d="M581 112C623 112 630 112 680 112" fill="none" stroke="#7951b0" stroke-width="2" stroke-dasharray="5 8" opacity=".6"/>
-            <g fill="none" stroke="#c53e51"><path d="M695 145C728 137 738 87 779 96S834 145 865 111S908 78 936 67" stroke-width="2.5"/><path d="M695 169C735 140 748 134 783 139S849 170 891 129S924 109 951 101" opacity=".18" stroke-width="1.3"/><path d="M695 119C730 106 738 60 779 65S831 108 870 80S909 49 936 40" opacity=".18" stroke-width="1.3"/><path d="M924 65L936 67L931 79" stroke-width="2"/><circle cx="779" cy="96" r="4" fill="#f8f9fc" stroke-width="1.8"/><circle cx="865" cy="111" r="4" fill="#f8f9fc" stroke-width="1.8"/><circle class="action-dot" cx="695" cy="145" r="4" fill="#c53e51" stroke="none"/></g>
-          </svg>
-          <div class="diagram-labels-html" aria-hidden="true"><span>Predictive representations</span><span>Latent dynamics</span><span>Intent-conditioned action</span></div>
-          <figcaption class="figure-caption"><span>A research lens: learn the world, understand change, act with intent.</span><a href="https://zju3dv.github.io/INTACT-JEPA/">Explore INTACT <span aria-hidden="true">↗</span></a></figcaption>
-        </figure>
-        <div class="research-questions">
-          <article><p class="question-number blue">01 / Representation</p><h3>What makes a latent space useful?</h3><p>Predictive representations that remain stable, informative, and grounded in physical change.</p></article>
-          <article><p class="question-number purple">02 / Intent</p><h3>How does an intent become an action?</h3><p>Connecting goal-conditioned latent change to deployable control without losing representation quality.</p></article>
-          <article><p class="question-number red">03 / Control</p><h3>Can embodied learning be more efficient?</h3><p>Compact world models, flexible time scales, and responsive control with less online search.</p></article>
-        </div>
-      </div>
+    <section class="research-line" id="research" aria-label="Research interests"><span class="research-label">Research</span><p><span class="blue">Representation</span><span aria-hidden="true"> → </span><span class="purple">Intent</span><span aria-hidden="true"> → </span><span class="red">Action</span><span class="research-line-detail"> · Learning the world to act in it.</span></p><a href="https://zju3dv.github.io/INTACT-JEPA/">Explore INTACT <span aria-hidden="true">↗</span></a></section>
+    <section class="publications-section section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><h2 id="publications-title">Publications</h2><p>Public preprints · <span class="contribution-note">* Equal contribution</span></p></div>
+      <div class="publication-list"><article class="paper" aria-labelledby="ibfm-title">
+        <figure class="paper-media"><div class="media-frame"><a href="https://iamhardworking.github.io/I-BFM/" aria-label="View I-BFM project"><img src="assets/research/ibfm.jpg" width="1280" height="720" alt="I-BFM humanoid carrying a box in the real-world robustness demonstration." loading="lazy" decoding="async" /></a></div><figcaption>Real-world interaction</figcaption></figure>
+        <div class="paper-heading"><p class="paper-status">arXiv preprint · 2026</p><h3 id="ibfm-title"><a href="https://arxiv.org/abs/2610.06129">I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning</a></h3></div>
+        <div class="paper-details"><p class="paper-authors">Ziqi Han*, Yitang Li*, <strong>Junhan Sun*</strong>, Fanrong Dong, Yaojie Shen, Lei Ye, Zetong Jing, Yongqi Zhang, Yiming Zhang, Xue Wang, Hao Zhao</p><p class="paper-summary">A reward-conditioned humanoid policy learns reusable object interaction and recovery skills through unsupervised reinforcement learning.</p><div class="paper-links" aria-label="I-BFM resources"><a href="https://arxiv.org/abs/2610.06129">Paper <span aria-hidden="true">↗</span></a><a href="https://iamhardworking.github.io/I-BFM/">Project <span aria-hidden="true">↗</span></a><span class="cofirst">Co-first author</span></div></div>
+      </article><article class="paper" aria-labelledby="flexi-title">
+        <figure class="paper-media square-demo"><div class="media-frame"><video id="flexiworld-video" poster="assets/research/flexiworld.jpg" src="assets/research/flexiworld.mp4" width="224" height="224" preload="none" muted playsinline loop aria-label="FlexiWorld ARCEM policy manipulating a cube in simulation."></video><button type="button" data-video-toggle aria-controls="flexiworld-video" aria-pressed="false" hidden><span aria-hidden="true">▶</span><span class="video-label">Play demo</span></button></div><figcaption>Simulation · 8 s</figcaption></figure>
+        <div class="paper-heading"><p class="paper-status">arXiv preprint · 2026</p><h3 id="flexi-title"><a href="https://arxiv.org/abs/2609.35138">FlexiWorld: Learning and Planning via Flexible Action Chunks Across Multiple Time Scales</a></h3></div>
+        <div class="paper-details"><p class="paper-authors">Shidu Ren*, Qilin Gu*, Zhenghao Ni*, <strong>Junhan Sun</strong>, Jiaqi Wang, Damien Scieur, Yunze Liu</p><p class="paper-summary">A JEPA world model combines variable-length action chunks and goal-conditioned action generation for planning across time scales.</p><div class="paper-links" aria-label="FlexiWorld resources"><a href="https://arxiv.org/abs/2609.35138">Paper <span aria-hidden="true">↗</span></a><a href="https://shidu-ren.github.io/FlexiWorld-Project-Page/">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/Shidu-Ren/FlexiWorld">Code <span aria-hidden="true">↗</span></a><a href="https://huggingface.co/ryanren0330/FlexiWorld">Models <span aria-hidden="true">↗</span></a></div></div>
+      </article><article class="paper" aria-labelledby="predactor-title">
+        <figure class="paper-media"><div class="media-frame"><a href="https://masteryip.github.io/predactor.github.io/" aria-label="View predactor project"><img src="assets/research/predactor.jpg" width="1920" height="1080" alt="PredActor humanoid in the project’s real-world hardware demonstration." loading="lazy" decoding="async" /></a></div><figcaption>Onboard humanoid control</figcaption></figure>
+        <div class="paper-heading"><p class="paper-status">arXiv preprint · 2026</p><h3 id="predactor-title"><a href="https://arxiv.org/abs/2609.24840">PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control</a></h3></div>
+        <div class="paper-details"><p class="paper-authors">Lei Ye, Haibo Gao, Yitang Li, Peng Xu, Zetong Jing, <strong>Junhan Sun</strong>, Fanrong Dong, Ziqi Han, Xue Wang, Jianhua Sun, Cewu Lu, Hao Zhao, Liang Ding</p><p class="paper-summary">Joint state–action diffusion predicts future motion for guidance and directly executes humanoid actions from proprioceptive observations.</p><div class="paper-links" aria-label="PredActor resources"><a href="https://arxiv.org/abs/2609.24840">Paper <span aria-hidden="true">↗</span></a><a href="https://masteryip.github.io/predactor.github.io/">Project <span aria-hidden="true">↗</span></a></div></div>
+      </article><article class="paper paper-focus" aria-labelledby="intact-title">
+        <figure class="paper-media"><div class="media-frame"><a href="https://zju3dv.github.io/INTACT-JEPA/" aria-label="View intact project"><img src="assets/research/intact.jpg" width="1920" height="1080" alt="INTACT project graphic connecting latent intent to action." loading="lazy" decoding="async" /></a></div><figcaption>Intent → action</figcaption></figure>
+        <div class="paper-heading"><p class="paper-status">arXiv preprint · 2026</p><h3 id="intact-title"><a href="https://arxiv.org/abs/2607.26056">INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models</a></h3></div>
+        <div class="paper-details"><p class="paper-authors"><strong>Junhan Sun</strong>, Hao Zhao, Guofeng Zhang</p><p class="paper-summary">Learning action-aligned latent intent turns visual goals into direct, search-free control within a world model.</p><div class="paper-links" aria-label="INTACT resources"><a href="https://arxiv.org/abs/2607.26056">Paper <span aria-hidden="true">↗</span></a><a href="https://zju3dv.github.io/INTACT-JEPA/">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/zju3dv/INTACT-JEPA">Code <span aria-hidden="true">↗</span></a></div></div>
+      </article><article class="paper" aria-labelledby="lamp-title">
+        <figure class="paper-media"><div class="media-frame"><video id="lamp-video" poster="assets/research/lamp.jpg" src="assets/research/lamp.mp4" width="960" height="544" preload="none" muted playsinline loop aria-label="LAMP robot arms assembling colored blocks in the real-world demonstration."></video><button type="button" data-video-toggle aria-controls="lamp-video" aria-pressed="false" hidden><span aria-hidden="true">▶</span><span class="video-label">Play demo</span></button></div><figcaption>Real-world demo · 3× playback</figcaption></figure>
+        <div class="paper-heading"><p class="paper-status">arXiv preprint · 2026</p><h3 id="lamp-title"><a href="https://arxiv.org/abs/2604.08475">LAMP: Lift Image-Editing as General 3D Priors for Open-world Manipulation</a></h3></div>
+        <div class="paper-details"><p class="paper-authors">Jingjing Wang, Zhengdong Hong, Chong Bao, Yuke Zhu, <strong>Junhan Sun</strong>, Guofeng Zhang</p><p class="paper-summary">Image-editing priors are lifted into inter-object 3D transformations to guide open-world robotic manipulation.</p><div class="paper-links" aria-label="LAMP resources"><a href="https://arxiv.org/abs/2604.08475">Paper <span aria-hidden="true">↗</span></a><a href="https://zju3dv.github.io/LAMP/">Project <span aria-hidden="true">↗</span></a></div></div>
+      </article></div>
     </section>
-
-    <section class="publications-section shell section" id="publications" aria-labelledby="publications-title">
-      <div class="section-heading"><div><p class="eyebrow"><span class="section-number">02</span>Public research</p><h2 id="publications-title">Publications</h2></div><p class="section-intro small">World models, humanoid control, and manipulation.<br /><span class="contribution-note">* Equal contribution.</span></p></div>
-      <div class="publication-list">
-        <article class="paper" aria-labelledby="ibfm-title">
-          <div class="paper-side"><span class="paper-id">01</span><p>Oct. 2026</p><span class="paper-topic red">Humanoid interaction</span></div>
-          <div class="paper-body"><p class="paper-status">arXiv preprint · 2026</p><h3 id="ibfm-title"><a href="https://arxiv.org/abs/2610.06129">I-BFM: Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning</a></h3><p class="paper-authors">Ziqi Han*, Yitang Li*, <strong>Junhan Sun*</strong>, Fanrong Dong, Yaojie Shen, Lei Ye, Zetong Jing, Yongqi Zhang, Yiming Zhang, Xue Wang, Hao Zhao</p><p class="paper-summary">A reward-conditioned humanoid policy learns reusable object interaction and recovery skills through unsupervised reinforcement learning.</p><div class="paper-links" aria-label="I-BFM resources"><a href="https://arxiv.org/abs/2610.06129">Paper <span aria-hidden="true">↗</span></a><span class="cofirst">Co-first author</span></div></div>
-        </article>
-        <article class="paper" aria-labelledby="flexi-title">
-          <div class="paper-side"><span class="paper-id">02</span><p>Sep. 2026</p><span class="paper-topic purple">World models</span></div>
-          <div class="paper-body"><p class="paper-status">arXiv preprint · 2026</p><h3 id="flexi-title"><a href="https://arxiv.org/abs/2609.35138">FlexiWorld: Learning and Planning via Flexible Action Chunks Across Multiple Time Scales</a></h3><p class="paper-authors">Shidu Ren, Qilin Gu, Zhenghao Ni, <strong>Junhan Sun</strong>, Jiaqi Wang, Damien Scieur, Yunze Liu</p><p class="paper-summary">A JEPA world model combines variable-length action chunks and goal-conditioned action generation for planning across time scales.</p><div class="paper-links" aria-label="FlexiWorld resources"><a href="https://arxiv.org/abs/2609.35138">Paper <span aria-hidden="true">↗</span></a><a href="https://shidu-ren.github.io/FlexiWorld-Project-Page/">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/Shidu-Ren/FlexiWorld">Code <span aria-hidden="true">↗</span></a><a href="https://huggingface.co/ryanren0330/FlexiWorld">Models <span aria-hidden="true">↗</span></a></div></div>
-        </article>
-        <article class="paper" aria-labelledby="predactor-title">
-          <div class="paper-side"><span class="paper-id">03</span><p>Sep. 2026</p><span class="paper-topic red">Humanoid control</span></div>
-          <div class="paper-body"><p class="paper-status">arXiv preprint · 2026</p><h3 id="predactor-title"><a href="https://arxiv.org/abs/2609.24840">PredActor: Predictive Action Diffusion for Steerable Onboard Humanoid Control</a></h3><p class="paper-authors">Lei Ye, Haibo Gao, Yitang Li, Peng Xu, Zetong Jing, <strong>Junhan Sun</strong>, Fanrong Dong, Ziqi Han, Xue Wang, Jianhua Sun, Cewu Lu, Hao Zhao, Liang Ding</p><p class="paper-summary">Joint state–action diffusion predicts future motion for guidance and directly executes humanoid actions from proprioceptive observations.</p><div class="paper-links" aria-label="PredActor resources"><a href="https://arxiv.org/abs/2609.24840">Paper <span aria-hidden="true">↗</span></a><a href="https://masteryip.github.io/predactor.github.io/">Project <span aria-hidden="true">↗</span></a></div></div>
-        </article>
-        <article class="paper paper-focus" aria-labelledby="intact-title">
-          <div class="paper-side"><span class="paper-id">04</span><p>Jul. 2026</p><span class="paper-topic blue">World models</span><span class="focus-label">Research focus</span></div>
-          <div class="paper-body"><p class="paper-status">arXiv preprint · 2026</p><h3 id="intact-title"><a href="https://arxiv.org/abs/2607.26056">INTACT: Isomorphic Intent-to-Action Learning for Search-Free World Models</a></h3><p class="paper-authors"><strong>Junhan Sun</strong>, Hao Zhao, Guofeng Zhang</p><p class="paper-summary">Learning action-aligned latent intent turns visual goals into direct, search-free control within a world model.</p><div class="paper-links" aria-label="INTACT resources"><a href="https://arxiv.org/abs/2607.26056">Paper <span aria-hidden="true">↗</span></a><a href="https://zju3dv.github.io/INTACT-JEPA/">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/zju3dv/INTACT-JEPA">Code <span aria-hidden="true">↗</span></a></div></div>
-        </article>
-        <article class="paper" aria-labelledby="lamp-title">
-          <div class="paper-side"><span class="paper-id">05</span><p>Apr. 2026</p><span class="paper-topic purple">Manipulation</span></div>
-          <div class="paper-body"><p class="paper-status">arXiv preprint · 2026</p><h3 id="lamp-title"><a href="https://arxiv.org/abs/2604.08475">LAMP: Lift Image-Editing as General 3D Priors for Open-world Manipulation</a></h3><p class="paper-authors">Jingjing Wang, Zhengdong Hong, Chong Bao, Yuke Zhu, <strong>Junhan Sun</strong>, Guofeng Zhang</p><p class="paper-summary">Image-editing priors are lifted into inter-object 3D transformations to guide open-world robotic manipulation.</p><div class="paper-links" aria-label="LAMP resources"><a href="https://arxiv.org/abs/2604.08475">Paper <span aria-hidden="true">↗</span></a><a href="https://zju3dv.github.io/LAMP/">Project <span aria-hidden="true">↗</span></a></div></div>
-        </article>
-      </div>
+    <section class="software-section section" id="software" aria-labelledby="software-title">
+      <h2 id="software-title">Software</h2><article class="software-row"><div><h3><a href="https://davidsunok.github.io/CLEAR-LeWM/">CLEAR-LeWM</a><span>Community evaluation software</span></h3><p>An auditable evaluation suite for LeWM-compatible latent world models, with official-compatible and difficulty-controlled task protocols.</p></div><div class="paper-links"><a href="https://davidsunok.github.io/CLEAR-LeWM/">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/DavidSunok/CLEAR-LeWM">GitHub <span aria-hidden="true">↗</span></a></div></article>
     </section>
-
-    <section class="software-section" id="software" aria-labelledby="software-title">
-      <div class="shell software-layout"><div><p class="eyebrow"><span class="section-number">03</span>Research software</p><h2 id="software-title">Tools for a shared<br />research practice.</h2></div><article><p class="software-type">Community evaluation software</p><h3>CLEAR-LeWM</h3><p>An auditable evaluation suite for LeWM-compatible latent world models, with official-compatible and difficulty-controlled task protocols.</p><div class="paper-links"><a href="https://davidsunok.github.io/CLEAR-LeWM/">Project <span aria-hidden="true">↗</span></a><a href="https://github.com/DavidSunok/CLEAR-LeWM">GitHub <span aria-hidden="true">↗</span></a></div></article></div>
-    </section>
-
-    <div class="shell activity-layout section">
-      <section id="news" aria-labelledby="news-title">
-        <p class="eyebrow">Recent updates</p><h2 id="news-title">Notes &amp; releases</h2>
-        <ol class="news-list">
-          <li><time datetime="2026-10">Oct. 2026</time><p><a href="https://arxiv.org/abs/2610.06129">I-BFM</a> is now a public preprint.</p></li>
-          <li><time datetime="2026-09">Sep. 2026</time><p>New preprints: <a href="https://arxiv.org/abs/2609.35138">FlexiWorld</a> and <a href="https://arxiv.org/abs/2609.24840">PredActor</a>.</p></li>
-          <li><time datetime="2026-08">Aug. 2026</time><p>Released <a href="https://github.com/zju3dv/INTACT-JEPA">INTACT</a> training code, evaluation stack, and model artifacts.</p></li>
-        </ol>
-        <details class="earlier-news"><summary>Earlier updates</summary><ol class="news-list">
-          <li><time datetime="2026-07">Jul. 2026</time><p>Released the <a href="https://arxiv.org/abs/2607.26056">INTACT preprint</a> and <a href="https://zju3dv.github.io/INTACT-JEPA/">interactive project page</a>.</p></li>
-          <li><time datetime="2026-07">Jul. 2026</time><p>Open-sourced <a href="https://github.com/DavidSunok/CLEAR-LeWM">CLEAR-LeWM</a> for community world-model evaluation.</p></li>
-        </ol></details>
-      </section>
-      <section id="education" aria-labelledby="education-title"><p class="eyebrow">Education</p><h2 id="education-title">At Zhejiang University</h2><div class="education-list">
-        <article><p class="education-date">2026 — Present</p><h3>Ph.D. in Computer Science</h3><p>College of Computer Science and Technology<br />State Key Laboratory of CAD&amp;CG</p></article>
-        <article><p class="education-date">2022 — 2026</p><h3>Undergraduate study</h3><p>Chu Kochen Honors College<br />Zhejiang University</p></article>
-      </div></section>
+    <div class="activity-layout section">
+      <section id="news" aria-labelledby="news-title"><h2 id="news-title">Updates</h2><ol class="news-list">
+        <li><time datetime="2026-10">Oct. 2026</time><p><a href="https://arxiv.org/abs/2610.06129">I-BFM</a> is now a public preprint.</p></li>
+        <li><time datetime="2026-09">Sep. 2026</time><p>New preprints: <a href="https://arxiv.org/abs/2609.35138">FlexiWorld</a> and <a href="https://arxiv.org/abs/2609.24840">PredActor</a>.</p></li>
+        <li><time datetime="2026-08">Aug. 2026</time><p>Released <a href="https://github.com/zju3dv/INTACT-JEPA">INTACT</a> code, evaluation stack, and model artifacts.</p></li>
+      </ol><details class="earlier-news"><summary>Earlier updates</summary><ol class="news-list"><li><time datetime="2026-07">Jul. 2026</time><p>Released the <a href="https://arxiv.org/abs/2607.26056">INTACT preprint</a> and <a href="https://zju3dv.github.io/INTACT-JEPA/">project page</a>.</p></li><li><time datetime="2026-07">Jul. 2026</time><p>Open-sourced <a href="https://github.com/DavidSunok/CLEAR-LeWM">CLEAR-LeWM</a> for world-model evaluation.</p></li></ol></details></section>
+      <section id="education" aria-labelledby="education-title"><h2 id="education-title">Education</h2><div class="education-list"><article><p class="education-date">2026 — Present</p><h3>Ph.D. in Computer Science</h3><p>Zhejiang University · College of Computer Science and Technology<br />State Key Laboratory of CAD&amp;CG</p></article><article><p class="education-date">2022 — 2026</p><h3>Undergraduate study</h3><p>Chu Kochen Honors College, Zhejiang University</p></article></div></section>
     </div>
-
-    <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="shell contact-layout"><div><p class="eyebrow">Keep in touch</p><h2 id="contact-title">Let's compare ideas.</h2><p>I welcome conversations about world models, representation learning, robot learning, and reproducible research.</p></div>
-      <div class="contact-links"><a class="contact-email" href="mailto:12621185@zju.edu.cn">12621185@zju.edu.cn <span aria-hidden="true">↗</span></a><a class="secondary-email" href="mailto:luoliibaqi4747@gmail.com">luoliibaqi4747@gmail.com <span aria-hidden="true">↗</span></a><div><a href="https://scholar.google.com/citations?user=CoqxbcUAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a><a href="https://github.com/DavidSunok">GitHub <span aria-hidden="true">↗</span></a><a href="https://x.com/DavidSunok47">X <span aria-hidden="true">↗</span></a></div></div></div>
-    </section>
+    <section class="contact-section section" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Contact</h2><div class="contact-layout"><p>I welcome conversations about world models, representation learning, and robot learning.</p><div class="contact-links"><a class="contact-email" href="mailto:12621185@zju.edu.cn">12621185@zju.edu.cn</a><a class="secondary-email" href="mailto:luoliibaqi4747@gmail.com">luoliibaqi4747@gmail.com</a></div></div></section>
   </main>
-  <footer class="shell footer-inner"><p>© 2026 Junhan Sun</p><p>World models · latent intent · direct control</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+  <footer class="shell footer-inner"><p>© 2026 Junhan Sun</p><p class="footer-motif"><i></i><i></i><i></i></p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>
